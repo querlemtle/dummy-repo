@@ -1,10 +1,29 @@
-body {
-  background-color: green;
+.toast {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  width: 394px;
+  padding: 0 1.5rem;
+  height: 96px;
+  margin: 0.5rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1 {
-  color: palegoldenrod;
-  font-size: 32px;
-  background-color: azure;
-  position: fixed;
+.toast-circle {
+  padding: 1.25rem;
+  border: 2px solid hsla(89, 54%, 50%, 1);
+  border-radius: 50%;
+}
+
+.toast-icon {
+  width: 1.5em;
+  height: 1.5em;
+  background-size: cover;
+  background-image: url("check-icon.png");
+  background-repeat: no-repeat;
 }
