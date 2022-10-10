@@ -1,1 +1,2 @@
-const apple = "APPLE"
+let foo = "Hello";
+const note = "CDEFGA";
